@@ -27,15 +27,17 @@ This project is designed to be tested on a local machine or also can be deployed
 * The **common-compose.yml** file has to be shared common configuration in different environments.
 * To launch this container in a local environment, simply use the **docker-compose.yml** file.
 >
+
     $ docker-compose up -d
->
+
 > the container began in a specific port
 
 
 * To work in staging environments that have a load balancer, you must use the **staging-compose.yml*** file.
 >
+
     $ docker-compose -f staging.yml up -d
->
+
 > the container starts on a random port, this will serve to use a load balancer.
 
 app/ directory
@@ -47,7 +49,7 @@ In this directory should put the source code of our application, the container t
 * Compile the application
 * Execute binary application
 
-default Go envs in linux alpine
+default Go envs on linux alpine
 -------------------------------
 alpine linux have for default this go envs:
 
