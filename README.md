@@ -12,6 +12,7 @@ This is the project's structure
 ```
 project
 │   README.md
+|   Dockerfile
 |   common-compose.yml
 |   docker-compose.yml
 |   staging-compose.yml
@@ -27,12 +28,14 @@ This project is designed to be tested on a local machine or also can be deployed
 * To launch this container in a local environment, simply use the **docker-compose.yml** file.
 >
     $ docker-compose up -d
+>
 > the container began in a specific port
 
 
 * To work in staging environments that have a load balancer, you must use the **staging-compose.yml*** file.
 >
     $ docker-compose -f staging.yml up -d
+>
 > the container starts on a random port, this will serve to use a load balancer.
 
 app directory
