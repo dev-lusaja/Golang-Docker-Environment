@@ -4,8 +4,8 @@ Golang-Docker-Environment
 
 This is a docker container for golang apps:
 
-Estruct:
---------
+Estruct
+-------
 This is the project's structure
 
 -----------
@@ -38,8 +38,8 @@ This project is designed to be tested on a local machine or also can be deployed
 >
 > the container starts on a random port, this will serve to use a load balancer.
 
-app directory
--------------
+app/ directory
+--------------
 
 In this directory should put the source code of our application, the container take the files in that directory and perform the following processes:
 
@@ -47,8 +47,8 @@ In this directory should put the source code of our application, the container t
 * Compile the application
 * Execute binary application
 
-default Go envs for alpine linux
---------------------------------
+default Go envs in linux alpine
+-------------------------------
 alpine linux have for default this go envs:
 
     GOARCH="amd64"
