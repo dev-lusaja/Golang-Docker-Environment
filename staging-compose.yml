@@ -2,5 +2,7 @@ web:
   extends:
     file: common-compose.yml
     service: common_service
+  environment:
+    VIRTUAL_HOST: 'staging-api.dev'
   ports:
-    - "8080:8080"
+    - "8080"
