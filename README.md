@@ -76,8 +76,11 @@ This container only have git installed, if you need other, add this in the Docke
 Testing
 -------
 
-Put in your navigator
+if you use the docker-compose file put in your navigator
 
     <ip>:8080/gretting
 
 > The response is: Hello world.
+
+**Note**
+For staging-compose.yml you need a load balancer or take the ramdon port generated for docker and put in your browser the address.
