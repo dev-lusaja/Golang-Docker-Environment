@@ -72,3 +72,12 @@ for Go get
 ----------
 
 This container only have git installed, if you need other, add this in the Dockerfile 
+
+Testing
+-------
+
+Put in your navigator
+
+    <ip>:8080/gretting
+
+> The response is: Hello world.
